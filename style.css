@@ -175,16 +175,19 @@
 }
 .about-text>h3{
     font-size: 40px;
+    color: #000000;
 }
 .about-text>p{
     font-size: 20px;
     font-weight: 700;
+    color: #000000;
 
 }
 .more-about{
     width: 230px;
     height: 51px;
     background: none;
+    border: 3px solid black;
 }
 .more-about>i{
     padding: 15px;
@@ -228,10 +231,13 @@
     height: 39px;
     background: none;
     border: 2px solid black;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .event-schedule-content>button:hover{
     background-color: rgb(97, 97, 221);
+    color: white;
+    border: none;
+
 }
 @media only screen and (max-width : 1060px) {
     .schedule-event{ 
