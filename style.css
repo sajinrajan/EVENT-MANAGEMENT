@@ -217,14 +217,21 @@
 /* <!--------------- ///////////////////EVENT SCHEDULE SECTION DIV BOX START///////////////////------------------>  */
 
 .five-event-schedule{
-    width:100%;
-
-   
+    width:100%; 
 }
 .schedule-event{
    position: relative;
    top: 20px;
-
+}
+.event-schedule-content>button{
+    width: 127px;
+    height: 39px;
+    background: none;
+    border: 2px solid black;
+    color: white;
+}
+.event-schedule-content>button:hover{
+    background-color: rgb(97, 97, 221);
 }
 @media only screen and (max-width : 1060px) {
     .schedule-event{ 
