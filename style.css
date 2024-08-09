@@ -217,7 +217,9 @@
 
 
 /* <!--------------- ///////////////////EVENT SCHEDULE SECTION DIV BOX START///////////////////------------------>  */
-
+#event-schedule{
+    padding-top: 90px;
+}
 .five-event-schedule{
     width:100%; 
 }
