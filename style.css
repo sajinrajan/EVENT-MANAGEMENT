@@ -200,7 +200,7 @@
 
 }
 
-@media only screen and (max-width : 710px) { 
+@media only screen and (max-width : 780px) { 
     .about-image{
         width: auto;
         height: auto;
@@ -210,7 +210,7 @@
     }
     .about-text>p{
         font-size: 15px;
-        font-weight: 700;
+        font-weight: 500;
     }
 } 
 /* <!--------------- /////////////////// ABOUT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
