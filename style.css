@@ -354,6 +354,7 @@ text-align: center;
     font-size: 21px;
     font-weight: 600;
     border-radius: 15px;
+    margin: 35px;
 }
 .register:hover{
     background-color: rgb(69, 69, 242);
@@ -376,3 +377,51 @@ text-align: center;
    
     
 /* <!--------------- ///////////////////EVENT OUR PRICING  SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+
+/* <!--------------- ///////////////////EVENT LATEST NEWS  SECTION DIV BOX START/////////////////// ------------------> */ 
+.latest-news-text>h1{
+    color: black;
+}
+.latest-news-text>p{
+    color: black;
+}
+.vid-txt{
+    text-align: center;
+}
+.latest-news-div-vid{
+    width: 350px;
+    height: 300px;
+}
+.latest-news-div-vid>video{
+    width: 350px;
+}
+
+
+
+@media only screen and (max-width : 1060px) {
+    .vid-txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 774px) { 
+
+    .vid-txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .latest-news-div-vid>h5{
+        font-size: 15px;
+    }
+    .latest-news-div-vid>video{
+        width: 300px;
+    }
+}
+
+/* <!--------------- ///////////////////EVENT LATEST NEWS SECTION DIV BOX ENT/////////////////// ------------------> */ 
