@@ -3,7 +3,7 @@
     margin: 0px;
  } 
  body{
-    background-color:  rgb(148, 177, 180) ;
+   
    
 }
   
@@ -297,6 +297,7 @@ top: 200px;
 }
 /* <!--------------- ///////////////////EVENT SPEAKER SECTION DIV BOX ENT/////////////////// ------------------> */ 
 
+/* <!--------------- ///////////////////EVENT VIDEO SECTION DIV BOX START/////////////////// ------------------> */ 
 
 #video-section{
     padding-top: 300px;
@@ -312,3 +313,66 @@ top: 200px;
     height: 602px;
     
 }
+/* <!--------------- ///////////////////EVENT VIDEO SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+/* <!--------------- ///////////////////EVENT OUR PRICING  SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+#our-price{
+    padding-top: 710px;
+}
+.our-price-all{
+    width: 100%;
+}
+.our-price-text>h1{
+    color: #000000;
+    font-weight: 500;
+
+}
+.our-price-text>p{
+    color: #000;
+    }
+.register-box{
+    padding: 15px;
+}
+.register{
+border: 1px solid black; 
+margin: 0px 0px 0px 0px;
+padding: 25px;
+text-align: center;
+
+}
+
+.register>h1{
+    font-size: 45px;
+}
+.register-but{
+    width: 185px;
+    height: 53px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.register:hover{
+    background-color: rgb(69, 69, 242);
+    color: white;
+}
+.register-but:hover{
+    background-color: white;
+    color: black;
+}
+
+    @media only screen and (max-width : 774px) { 
+
+        .register{
+            text-align: center;
+            padding: 25px;
+
+          
+        }
+    }
+   
+    
+/* <!--------------- ///////////////////EVENT OUR PRICING  SECTION DIV BOX ENT/////////////////// ------------------> */ 
