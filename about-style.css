@@ -166,6 +166,9 @@
 }
 
 @media only screen and (max-width : 780px) { 
+    #about-img-txt {
+        padding: 0;
+    }
     .about-image-box{
         width: auto;
         height: auto;
@@ -197,6 +200,10 @@
     padding: 15px;
 }
 @media only screen and (max-width : 780px) { 
+    #about-event-img-txt {
+       margin-top: 150px;
+        padding: 0;
+    }
     .about-event-image-box>img{
         width: auto;
         height: auto;
