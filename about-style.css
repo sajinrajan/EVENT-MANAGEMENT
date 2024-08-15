@@ -183,6 +183,7 @@
 } 
 /* <!---------------/////////////////// ABOUT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
 
+/* <!---------------/////////////////// ABOUT EVENT CONTENT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
 
 #about-event-img-txt{
     padding: 127px;
@@ -219,3 +220,40 @@
         font-weight: 500;
     }
 } 
+/* <!---------------/////////////////// ABOUT EVENT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
+
+
+/* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
+
+.designer-event-image-box{
+    
+
+}
+.designer-event-image-box>img{
+    width: 131px;
+    height: 202px;
+    padding: 5px;
+}
+.designer-event-image-box>img:hover{
+    height: 400px;
+    width: 300px;
+}
+
+@media only screen and (max-width : 780px) {
+.designer-event-image-box{
+
+    text-align: center;
+}
+    .designer-event-image-box>img{
+
+        text-align: center;
+    }
+    .designer-event-image{
+        width: 250PX;
+    }
+    .designer-event-image-box>img:hover{
+        height: 400px;
+        width: 250PX;
+    }
+}
+/* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
