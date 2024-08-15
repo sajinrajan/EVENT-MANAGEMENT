@@ -225,25 +225,35 @@
 
 /* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
 
-.designer-event-image-box{
-    
-
+.designer-event-text-box{
+    margin-top: 160px;
 }
 .designer-event-image-box>img{
-    width: 131px;
-    height: 202px;
+    width: 262px;
+    height: 380px;
     padding: 5px;
 }
 .designer-event-image-box>img:hover{
     height: 400px;
     width: 300px;
 }
+@media only screen and (max-width : 1200px) {
+    .designer-event-image-box>img{
+        width: 131px;
+        height: 202px;
+        padding: 5px;
+    }
+}
 
 @media only screen and (max-width : 780px) {
-.designer-event-image-box{
+    .designer-event-image-box{
 
-    text-align: center;
-}
+        text-align: center;
+    }
+    .designer-event-text-box{
+        text-align: center;
+
+    }
     .designer-event-image-box>img{
 
         text-align: center;
@@ -257,3 +267,21 @@
     }
 }
 /* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
+
+/* <!---------------/////////////////// ABOUT PAST EVENT'S CONTENT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
+#past-event{
+    margin-top: 250px;
+    text-align: center;
+}
+.past-event-text-box{
+    margin-top: 50px;
+}
+.past-event-image-box>video{
+ width: 100%;
+ text-align: center;
+}
+
+/* <!---------------/////////////////// ABOUT PAST EVENT'S CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
+
+
+
