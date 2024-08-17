@@ -285,3 +285,257 @@
 
 
 
+/* <!--------------- ///////////////////EVENT SCHEDULE SECTION DIV BOX START///////////////////------------------>  */
+#event-schedule{
+    padding-top: 190px;
+}
+
+.five-event-schedule{
+    width:100%; 
+}
+.schedule-event{
+   position: relative;
+   top: 20px;
+}
+
+.event-schedule-content>button{
+    width: 127px;
+    height: 39px;
+    background: none;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+}
+.event-schedule-content>button:hover{
+    background-color: rgb(97, 97, 221);
+    color: white;
+    border: none;
+
+}
+@media only screen and (max-width : 1060px) {
+    .schedule-event{ 
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;}
+
+}
+@media only screen and (max-width : 710px) { 
+.schedule-event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+
+}
+
+} 
+
+
+/* <!--------------- ///////////////////EVENT SCHEDULE SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+/* <!--------------- ///////////////////EVENT LATEST JOINING OUR PROGRAM SECTION DIV BOX START/////////////////// ------------------> */ 
+#joining-our-program{
+    padding-top: 100px;
+    text-align: center;
+}
+.joining-event-text-image-box{
+    width: 100%;
+    background-color: #2584a7;
+    background-image: url(./image/loki.jpg);
+    color: white;
+}
+
+.joining-event-text-box>button {
+    margin-top: 40px;
+    width: 137px;
+    height: 51px;
+    background: aquamarine;
+    border: 2px;
+    border-radius: 17px;
+    font-size: 14px;
+    font-weight: 600;
+}
+/* <!--------------- ///////////////////EVENT LATEST JOINING OUR PROGRAM SECTION DIV BOX END/////////////////// ------------------> */ 
+
+
+/* <!--------------- ///////////////////EVENT LATEST NEWS  SECTION DIV BOX START/////////////////// ------------------> */ 
+
+#latest-news{
+    padding-top: 180px;
+}
+.latest-news-text>h1{
+    color: black;
+}
+.footer-box-con{
+    margin-top: 80px;
+}
+.latest-news-text>p{
+    color: black;
+}
+
+.vid-txt{
+    text-align: center;
+}
+.latest-news-div-vid{
+    width: 350px;
+    height: 300px;
+}
+.latest-news-div-vid>video{
+    width: 350px;
+}
+
+
+
+@media only screen and (max-width : 1060px) {
+    .vid-txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width : 774px) { 
+
+    .vid-txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-box{
+        text-align: center;
+    }
+    .latest-news-div-vid>h5{
+        font-size: 15px;
+    }
+    .latest-news-div-vid>video{
+        width: 300px;
+    }
+}
+
+/* <!--------------- ///////////////////EVENT LATEST NEWS SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+
+/* <!--------------- ///////////////////EVENT OUR PRICING  SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+#our-price{
+    padding-top: 110px;
+}
+.our-price-all{
+    width: 100%;
+}
+.our-price-text>h1{
+    color: #000000;
+    font-weight: 500;
+
+}
+.our-price-text>p{
+    color: #000;
+    }
+.register-box{
+    padding: 15px;
+}
+.register{
+border: 1px solid black; 
+margin: 0px 0px 0px 0px;
+padding: 25px;
+text-align: center;
+
+}
+
+.register>h1{
+    font-size: 45px;
+}
+.register-but{
+    width: 185px;
+    height: 53px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin: 35px;
+}
+.register:hover{
+    background-color: rgb(69, 69, 242);
+    color: white;
+}
+.register-but:hover{
+    background-color: white;
+    color: black;
+}
+
+    @media only screen and (max-width : 774px) { 
+
+        .register{
+            text-align: center;
+            padding: 25px;
+
+          
+        }
+    }
+   
+    
+/* <!--------------- ///////////////////EVENT OUR PRICING  SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+
+/* <!--------------- ///////////////////EVENT FOOTER SECTION DIV BOX START/////////////////// ------------------> */ 
+.footer-box-con{margin-top: 180px;}
+.webName{
+    cursor: pointer;
+    font-size: 40px;
+    color: #2584a7;
+}
+.webNameEnd{
+    cursor: pointer;
+    font-size: 30px;
+    color: #34afe8;
+}
+
+.webName2{
+    cursor: pointer;
+    font-size: 30px;
+    color: #30c1e6;
+}
+.webNameEnd2{
+    font-size: 25px;
+    color: #ee4c7c;
+}
+
+/* hover effects */
+.events{
+    color: #ffffff;
+    
+}
+
+.events:hover{
+ color: #ffffff;
+
+ }
+
+ /* ul list hover */
+ ul li:hover{
+    cursor: pointer;
+    color: #ee4c7c;
+   
+}
+
+ul.list-unstyled.text-secondary {
+    color: #ffffff !important;
+}
+
+ul.list-unstyled.d-flex.align-items-center.justify-content-center a:hover i {
+    color: #ee4c7c !important; 
+}
+.i-nil{
+  color: #e8e8e8;
+}
+  
+
+
+
+/* <!--------------- ///////////////////EVENT FOOTER SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
