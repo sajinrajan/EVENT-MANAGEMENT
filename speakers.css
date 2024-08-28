@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  /* <!--------------- ///////////////////HEADER LOGO NAV BOOK TABLE START /////////////////// ------------------> */ 
+
+
+  .header-nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.logo{
+    width: 48px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: -webkit-xxx-large;
+    font-family: 'FontAwesome';
+    margin: 10px;}
+
+.nav-bar-box{
+    width:70.3%;
+    height: 122px;
+    padding: 1px ;   
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-box>a{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px;
+}
+.nav-bar-box>a:hover{
+     color: #000000;
+    padding: .7rem;
+    border-bottom:1px solid #c39a8b ;
+    transition: .2S;
+}
+
+.mobile-nav{
+    width:10.3%;
+    height: 122px;
+    display: none;
+}
+.mobil-menu-bar{
+    margin-right: 28px;
+    display: none;
+ }
+ #mobil-menu-bar{
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 78vh;
+    width: 300px;
+    z-index: 999;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px -2px 10px 2px #3d3d3d;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+#mobil-menu-bar>a{
+    margin: 10px;
+    width: 92%;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.mobil-menu-bar>i{
+    font-size: 30px;
+    color: white;
+}
+.fa-solid{
+   font-size:  25px;
+}
+.booking-hall>input{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(46, 118, 201);
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px 0px 25px 0px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.booking-hall>input:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 25px;
+}
+ @media only screen and (max-width : 1060px) {
+    .nav-bar-box>a{
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width : 710px) {
+    .nav-bar-box>a{
+         display: none;
+    }
+    .mobile-nav{
+        display: block;
+        width: 10.3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .booking-hall>input{
+        margin-right: 20px;
+    }
+
+    
+    } 
+    /* <!---------------/////////////////// HEADER LOGO NAV BOOK TABLE END/////////////////// ------------------> */
+
+
+ 
+.more-about{
+    z-index: -1;
+    background: none;
+    border: 3px solid black;
+}
+.more-about,a{
+padding: 16px;
+text-decoration: none;
+color: #000;
+
+}
+.more-about>i{
+    padding: 15px;
+}
+.more-about:hover{
+    background-color: rgb(201, 235, 233);
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
+
+}
+/* <!--------------- ///////////////////EVENT SPEAKER SECTION DIV BOX START/////////////////// ------------------> */ 
+
+
+.event-speaker-section{
+
+    
+    }
+    .event-skp{
+        text-align: center;
+    }
+    .speaker-image>img{
+        border-radius: 61px 0px 124px 0px
+    }
+    @media only screen and (max-width : 1060px) {
+        .event-skp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    
+    @media only screen and (max-width : 774px) { 
+    
+        .event-skp{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    /* <!--------------- ///////////////////EVENT SPEAKER SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+    
+
+/* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
+
+#designer-event-img-txt-box{
+    margin-top: 60px;
+}
+
+
+/* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
+/* <!--------------- ///////////////////EVENT FOOTER SECTION DIV BOX START/////////////////// ------------------> */ 
+.footer-box-con{margin-top: 180px;}
+.webName{
+    cursor: pointer;
+    font-size: 40px;
+    color: #2584a7;
+}
+.webNameEnd{
+    cursor: pointer;
+    font-size: 30px;
+    color: #34afe8;
+}
+
+.webName2{
+    cursor: pointer;
+    font-size: 30px;
+    color: #30c1e6;
+}
+.webNameEnd2{
+    font-size: 25px;
+    color: #ee4c7c;
+}
+
+/* hover effects */
+.events{
+    color: #ffffff;
+    
+}
+
+.events:hover{
+ color: #ffffff;
+
+ }
+
+ /* ul list hover */
+ ul li:hover{
+    cursor: pointer;
+    color: #ee4c7c;
+   
+}
+
+ul.list-unstyled.text-secondary {
+    color: #ffffff !important;
+}
+
+ul.list-unstyled.d-flex.align-items-center.justify-content-center a:hover i {
+    color: #ee4c7c !important; 
+}
+.i-nil{
+  color: #e8e8e8;
+}
+  
+
+
+
+/* <!--------------- ///////////////////EVENT FOOTER SECTION DIV BOX ENT/////////////////// ------------------> */ 

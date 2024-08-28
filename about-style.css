@@ -233,10 +233,6 @@
     height: 380px;
     padding: 5px;
 }
-.designer-event-image-box>img:hover{
-    height: 400px;
-    width: 300px;
-}
 @media only screen and (max-width : 1200px) {
     .designer-event-image-box>img{
         width: 131px;
@@ -261,10 +257,7 @@
     .designer-event-image{
         width: 250PX;
     }
-    .designer-event-image-box>img:hover{
-        height: 400px;
-        width: 250PX;
-    }
+  
 }
 /* <!---------------/////////////////// ABOUT MICHAEL SMITH EVENT CONTENT IMAGE SECTION DIV BOX END/////////////////// ------------------> */
 
