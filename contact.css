@@ -91,7 +91,7 @@
 .fa-solid{
    font-size:  25px;
 }
-.booking-hall>input{
+.booking-hall>a{
     width: 150px;
     height: 50px;
     background-color: rgb(46, 118, 201);
@@ -106,7 +106,7 @@
     
 }
 
-.booking-hall>input:hover{
+.booking-hall>a:hover{
     background-color: #000000;
     color: white;
     border-radius: 25px;
@@ -128,7 +128,7 @@
         justify-content: center;
         align-items: center;
     }
-    .booking-hall>input{
+    .booking-hall>a{
         margin-right: 20px;
     }
 
@@ -136,6 +136,31 @@
     } 
 /* <!---------------/////////////////// HEADER LOGO NAV BOOK TABLE END/////////////////// ------------------> */
 
+ 
+.more-about{
+    z-index: -1;
+    background: none;
+    border: 1px solid black;
+}
+.more-about,a{
+padding: 16px;
+text-decoration: none;
+color: #000;
+
+}
+.more-about>i{
+    padding: 15px;
+}
+.more-about:hover{
+    background-color: rgb(201, 235, 233);
+    border: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px;
+
+}
 /* <!--------------- ///////////////////EVENT CONTACT SECTION DIV BOX START/////////////////// ------------------> */ 
 #contact-section{
     width: 100%;
@@ -188,3 +213,45 @@ text-align: center;
     border: 2px solid black;
 }
 /* <!--------------- ///////////////////EVENT CONTACT SECTION DIV BOX ENT/////////////////// ------------------> */ 
+
+/* <!---------------/////////////////// HEADER BUY TICKET START/////////////////// ------------------> */
+.background{
+
+    background-image:url(./image/c4f5ada006d2fdd12f9ffc94b47d69a3.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-from{
+    background-color: rgba(255,255,255,0.7);
+    padding: 20px;
+    max-width: 500px;
+    width: 80%;
+    margin: 0 auto;
+}
+.background-from h2{
+    text-align: center;
+}
+.background-from form{
+display: flex;
+flex-direction: column;
+}
+.background-from input{
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.background-from button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* <!---------------/////////////////// HEADER BUY TICKET END/////////////////// ------------------> */

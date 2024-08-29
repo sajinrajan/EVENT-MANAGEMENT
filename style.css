@@ -13,13 +13,14 @@
     width: 100%;
     height: 700px;
     object-fit: cover;
-    background-image: url(./image/776830.jpg);
+    background-image: url(./image/EVENTs.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     border-radius: 0px 0px 0px 0px;
     /* opacity: 0.8; */
   }
+  
   
   /* <!--------------- ///////////////////HEADER LOGO NAV BOOK TABLE START /////////////////// ------------------> */ 
 
@@ -28,8 +29,6 @@
     width: 100%;
     height: 100px;
     display: flex;
-    box-shadow: 1px -2px 10px 2px #3d3d3d;
-    backdrop-filter: blur(5px);
     justify-content: space-between;
     align-items: center;
 
@@ -51,7 +50,7 @@
     width:70.3%;
     height: 122px;
     padding: 1px ;   
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +94,7 @@
     align-items: center;
 }
 #mobil-menu-bar>a{
+    margin: 10px;
     width: 92%;
     font-size: 17px;
     font-weight: 600;
@@ -109,7 +109,7 @@
 .fa-solid{
    font-size:  25px;
 }
-.booking-hall>input{
+.booking-hall>a{
     width: 150px;
     height: 50px;
     background-color: rgb(46, 118, 201);
@@ -124,7 +124,7 @@
     
 }
 
-.booking-hall>input:hover{
+.booking-hall>a:hover{
     background-color: #000000;
     color: white;
     border-radius: 25px;
@@ -146,19 +146,68 @@
         justify-content: center;
         align-items: center;
     }
-    .booking-hall>input{
+    .booking-hall>a{
         margin-right: 20px;
     }
 
-    .
-    } *
-    /* <!---------------/////////////////// HEADER LOGO NAV BOOK TABLE END/////////////////// ------------------> */
+    
+    } 
+/* <!---------------/////////////////// HEADER LOGO NAV BOOK TABLE END/////////////////// ------------------> */
 
+    /*<!---------------  ///////////////////EVENT IMAGE SECTION DIV BOX TEXT START/////////////////// ------------------> */
+
+#event-txt-img-box{
+    margin-top:-500px ;
+}
+.event-txt-box h1{
+    font-weight: 900;
+    font-size: 66px;
+}
+.event-txt-box p{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.event-box-txt h3{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+.event-box-txt p{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+@media only screen and (max-width : 780px) { 
+   
+    .event-txt-box h1{
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .event-txt-box p{
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    .event-box-txt h3{
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+    }
+    .event-box-txt p{
+        font-size: 15px;
+        font-weight: 200;
+        color: white;
+    }
+}
+/* <!---------------/////////////////// EVENT IMAGE SECTION DIV BOX TEXT  END/////////////////// ------------------> */
 
     /*<!---------------  ///////////////////ABOUT IMAGE SECTION DIV BOX START/////////////////// ------------------> */
   #first-div{
     height: auto;
     color: aliceblue;
+    margin-top:250px;
  
 }
 .about-text-img{
